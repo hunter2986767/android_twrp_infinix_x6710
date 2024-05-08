@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/X6739
+DEVICE_PATH := device/infinix/X6710
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -30,7 +30,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6739
+TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6710
 TARGET_NO_BOOTLOADER := true
 
 # Display
